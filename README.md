@@ -38,7 +38,7 @@ The problem when IP logging is that unless you send a specific user a logging li
 
 This is a tool I originally made back around 2016 for my digital advertising business VOXDSP, to identify fraudulent or bot traffic from traffic suppliers, however, I recently decided to adapt it for a more general-purpose that internet users would find useful. I honestly think that when dealing with large amounts of non-descript information such as pseudo-anonymous IP logs, how you present that data is key, alongside what data you can collect, and most of that data the user's web browser will tell you freely upon executing custom javascript code.
 
-### Why are your screenshots of a dark UI? Mine is white!
+## Why are your screenshots of a dark UI? Mine is white!
 I am using Dark Reader, https://darkreader.org/.
 
 ## MIT License
