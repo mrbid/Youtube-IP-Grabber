@@ -5,7 +5,7 @@
         
         Grabber URL Javascript Payload.
 
-        Part of the YoutubeIPGrabber; https://github.com/mrbid
+        Part of the YoutubeIPGrabber; https://github.com/mrbid/Youtube-IP-Grabber
     */
 
     $ip = urlencode($_SERVER['REMOTE_ADDR']);
