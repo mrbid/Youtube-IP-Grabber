@@ -1,7 +1,7 @@
 # Youtube IP Grabber
 A javascript "IP Grabber" that disguises itself behind YouTube metadata.
 
-![view.php](screenshot1.png)
+![view.php](https://raw.githubusercontent.com/mrbid/Youtube-IP-Grabber/main/screenshot1.png)
 
 ## About
 
