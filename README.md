@@ -3,33 +3,33 @@ A javascript "IP Grabber" that disguises itself behind YouTube metadata.
 
 ![view.php](screenshot1.png)
 
-### About
+## About
 
 This is a simple to setup IP logger that is capable of detecting a user's true country of origin even while behind a VPN, in most cases. No external dependencies are required other than NGINX and PHP-FPM.
 
 **Server Dependencies:** NGINX, PHP-FPM<br>
 **Client Dependencies:** HTML, CSS, Javascript
 
-### Instructions
+## Instructions
 
 Copy the contents of this git to your root www directory and setup permissions so that the PHP files can create new files within that directory. *(it's going to generate log files as plain text)*
 
 Create a URL to point at this www, for example, `logtu.be`.
 
-To create a logging URL: *(will use the original YouTube video metadata and redirect to the original video when clicked)*<br>
+**To create a logging URL:** *(will use the original YouTube video metadata and redirect to the original video when clicked)*<br>
 https://logtu.be/?v=<YOUTUBE-VIDEO-ID>
 
 A URL will be generated and provided as the body of the request-response (HTML page). This is the URL that you distribute to users you intend to grab the IP address of. It will look like; https://logtu.be/<YOUTUBE-VIDEO-ID>
 
-To view the list of users who clicked the URL:<br>
+**To view the list of users who clicked the URL:**<br>
 https://logtu.be/<YOUTUBE-VIDEO-ID>/view.php
 
-To log the clicks of all URLs:<br>
+**To log the clicks of all URLs:**<br>
 https://logtu.be/master/view.php
 
 There are other logs made, just explore the www directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users who clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
 
-### Ethos
+## Ethos
 
 This is a simple and lightweight utility, designed to log and view a few thousand IP addresses maximum. `view.php` is not designed to load millions of IP addresses and simple file-based logs in this manner will reach a 4GB limit on FAT32 without forking to historical log files. This was designed with the intention that no logging URL would be used for more than a few thousand clicks.
 
@@ -40,7 +40,7 @@ This is a tool I originally made back around 2016 for my digital advertising bus
 ### Why are your screenshots of a dark UI? Mine is white!
 I am using Dark Reader, https://darkreader.org/.
 
-### MIT License
+## MIT License
 
 Copyright (c) 2021 VOXDSP
 
