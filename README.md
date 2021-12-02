@@ -30,6 +30,8 @@ https://logtu.be/master/view.php
 
 There are other logs made, just explore the `www` directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users who clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
 
+Timestamps are baked into the User Agent (UA) string.
+
 ## Ethos
 
 This is a simple and lightweight utility, designed to log and view a few thousand IP addresses at maximum. `view.php` is not designed to load millions of IP addresses and simple file-based logs in this manner will reach a 4GB limit on FAT32 without forking to historical log files. This was designed with the intention that no logging URL would be used for more than a few thousand clicks.
