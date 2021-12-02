@@ -17,12 +17,12 @@ Copy the contents of this git to your root www directory and setup permissions s
 Create a URL to point at this www, for example, `logtu.be`.
 
 **To create a logging URL:** *(will use the original YouTube video metadata and redirect to the original video when clicked)*<br>
-https://logtu.be/?v=<<YOUTUBE-VIDEO-ID>>
+https://logtu.be/?v=&ltYOUTUBE-VIDEO-ID&gt
 
-A URL will be generated and provided as the body of the request-response (HTML page). This is the URL that you distribute to users you intend to grab the IP address of. It will look like; https://logtu.be/<<YOUTUBE-VIDEO-ID>>
+A URL will be generated and provided as the body of the request-response (HTML page). This is the URL that you distribute to users you intend to grab the IP address of. It will look like; https://logtu.be/&ltYOUTUBE-VIDEO-ID&gt
 
 **To view the list of users who clicked the URL:**<br>
-https://logtu.be/<<YOUTUBE-VIDEO-ID>>/view.php
+https://logtu.be/&ltYOUTUBE-VIDEO-ID&gt/view.php
 
 **To log the clicks of all URLs:**<br>
 https://logtu.be/master/view.php
