@@ -12,9 +12,9 @@ This is a simple to setup IP logger that is capable of detecting a user's true c
 
 ## Instructions
 
-Copy the contents of this git to your root www directory and setup permissions so that the PHP files can create new files within that directory. *(it's going to generate log files as plain text)*
+Copy the contents of this git to your root `www` directory and setup permissions so that the PHP files can create new files within that directory. *(it's going to generate log files as plain text)*
 
-Create a URL to point at this www, for example, `logtu.be`.
+Create a URL to point at this `www`, for example, `logtu.be`.
 
 **To create a logging URL:** *(will use the original YouTube video metadata and redirect to the original video when clicked)*<br>
 https://logtu.be/?v=_<YOUTUBE-VIDEO-ID\>_
@@ -28,7 +28,7 @@ https://logtu.be/_<YOUTUBE-VIDEO-ID\>_/view.php
 **To log the clicks of all URLs:**<br>
 https://logtu.be/master/view.php
 
-There are other logs made, just explore the www directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users who clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
+There are other logs made, just explore the `www` directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users who clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
 
 ## Ethos
 
