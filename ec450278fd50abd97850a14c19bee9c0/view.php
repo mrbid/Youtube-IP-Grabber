@@ -5,7 +5,7 @@
         
         Simple local view panel with access logging.
 
-        Part of the YoutubeIPGrabber; https://github.com/mrbid
+        Part of the YoutubeIPGrabber; https://github.com/mrbid/Youtube-IP-Grabber
     */
 
     if(isset($_GET['clr']))
