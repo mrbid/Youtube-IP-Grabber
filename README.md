@@ -19,7 +19,8 @@ Create a URL to point at this www, for example, `logtu.be`.
 **To create a logging URL:** *(will use the original YouTube video metadata and redirect to the original video when clicked)*<br>
 https://logtu.be/?v=_<YOUTUBE-VIDEO-ID\>_
 
-A URL will be generated and provided as the body of the request-response (HTML page). This is the URL that you distribute to users you intend to grab the IP address of. It will look like; https://logtu.be/_<YOUTUBE-VIDEO-ID\>_
+A URL will be generated and provided as the body of the request-response (HTML page). This is the URL that you distribute to users you intend to grab the IP address of. It will look like;<br>
+https://logtu.be/_<YOUTUBE-VIDEO-ID\>_
 
 **To view the list of users who clicked the URL:**<br>
 https://logtu.be/_<YOUTUBE-VIDEO-ID\>_/view.php
