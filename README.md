@@ -23,7 +23,7 @@ A URL will be generated and provided as the body of the request-response (HTML p
 https://logtu.be/_<YOUTUBE-VIDEO-ID\>_
 
 **To view the list of users who clicked the URL:**<br>
-https://logtu.be/_<YOUTUBE-VIDEO-ID\>_/view.php
+https://logtu.be/_<YOUTUBE-VIDEO-ID\>_<a>/view.php</a>
 
 **To log the clicks of all URLs:**<br>
 https://logtu.be/master/view.php
