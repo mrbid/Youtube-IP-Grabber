@@ -66,7 +66,7 @@
             <th style="cursor:pointer;" title="Number of Browser Plugins"><i class="fas fa-plug"></i></th>
             <th style="cursor:pointer;" title="Colour Depth"><i class="fas fa-palette"></i></th>
             <th style="cursor:pointer;" title="Is loaded IN-APP"><i class="fas fa-tablet-alt"></i></th>
-            <th style="cursor:pointer;" title="YouTube ID"><i class="fas fa-info"></i></th>
+            <th style="cursor:pointer;" title="YouTube ID"><i class="fab fa-youtube"></i></th>
         </tr>
     </thead>
     <tbody>
