@@ -28,7 +28,7 @@ https://logtu.be/_<YOUTUBE-VIDEO-ID\>_[/view.php]()
 **To view the clicks of all URLs:**<br>
 https://logtu.be/master/view.php
 
-There are other logs produced, just explore the `www` directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users who clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
+There are other logs produced, just explore the `www` directory to see what is generated. The only other log worth mentioning right now is the prelog.txt which is a log of all users whom clicked a URL - this is helpful in cases where some users failed to load the Javascript payload either due to NoScript or closing the page instantly after clicking.
 
 Timestamps are baked into the User Agent (UA) string.
 
