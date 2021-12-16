@@ -32,6 +32,9 @@ There are other logs produced, just explore the `www` directory to see what is g
 
 Timestamps are baked into the User Agent (UA) string.
 
+## Improvements
+I could encrypt or at the very least base64 the url parameters being sent to the server from the Javascript payload, but I don't. It's not a big deal as it does not reduce the effectiveness of the vector but does allow external parties performing an investigation to identify the kind of information being logged if so desired.
+
 ## Ethos
 
 This is a simple and lightweight utility, designed to log and view a few thousand IP addresses at maximum. `view.php` is not designed to load millions of IP addresses and simple file-based logs in this manner will reach a 4GB limit on FAT32 without forking to historical log files. This was designed with the intention that no logging URL would be used for more than a few thousand clicks.
